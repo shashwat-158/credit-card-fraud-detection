@@ -1,0 +1,21 @@
+# Environments
+.env
+.venv
+venv/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Project Specific (Ignore large datasets and models)
+data/*.csv
+data/*.zip
+model/*.pkl
+model/*.joblib
