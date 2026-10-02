@@ -7,3 +7,5 @@ streamlit
 matplotlib
 seaborn
 joblib
+shap
+lightgbm
